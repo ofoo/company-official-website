@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+.s1{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(255, 255, 255, 0.898);
+    height: 100px;
+    display: flex;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.04739336492890995);
+    z-index: 1;
+}
+.s1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s1 .nav{
+    display: flex;
+    height: 100%;
+}
+.s1 .nav>li>a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.s1 .nav>li>a:hover{
+    color: #076ce0;
+    border-bottom: 2px solid #076ce0;
+}
+/*广告图*/
+.s2{
+    padding-top: 100px;
+    position: relative;
+    width: 100%;
+}
+.s2 .container{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+.s2 .banner-img{
+    background-image: url(banner1.jpg);
+    height: 700px;
+}
+.s2 .container .banner-text-container{
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.s3{
+    height: 165px;
+}
+
+.s3 .container{
+    height: 100%;
+}
+
+.s3 .list{
+    display: flex;
+    height: 100%;
+}
+
+.s3 .list li{
+    display: flex;
+    align-items: center;
+}
